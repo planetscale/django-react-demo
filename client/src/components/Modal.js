@@ -1,5 +1,3 @@
-// frontend/src/components/Modal.js
-
 import React, { Component } from "react";
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter, Form, FormGroup, Input, Label} from "reactstrap";
 
@@ -21,7 +19,7 @@ export default class CustomModal extends Component {
     const { toggle, onSave } = this.props;
     return (
       <Modal isOpen={true} toggle={toggle}>
-        <ModalHeader toggle={toggle}> Please Input your Information </ModalHeader>
+        <ModalHeader toggle={toggle}> Please input your information </ModalHeader>
         <ModalBody>
           <Form>
             <FormGroup>
@@ -31,7 +29,7 @@ export default class CustomModal extends Component {
                 name="name"
                 value={this.state.users.name}
                 onChange={this.handleChange}
-                placeholder="Enter your Name"
+                placeholder="Enter your name"
               />
             </FormGroup>
             <FormGroup>
@@ -41,7 +39,7 @@ export default class CustomModal extends Component {
                 name="occupation"
                 value={this.state.users.occupation}
                 onChange={this.handleChange}
-                placeholder="Please Input your Occupation"
+                placeholder="Enter your occupation"
               />
             </FormGroup>
           </Form>
