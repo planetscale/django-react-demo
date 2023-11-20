@@ -8,7 +8,7 @@ This is a user management application built with Django REST Framework for API C
 
 ## Getting started
 1. Clone the project to your machine 
-2. Navigate into the diretory ```cd django-planetscale-demo```
+2. Navigate into the diretory ```cd django-react-demo```
 3. Source the virtual environment ```pipenv shell```
 4. Install the dependencies ```pipenv install```
 5. Navigate into the frontend directory ```cd client```
